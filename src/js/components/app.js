@@ -1,17 +1,19 @@
 /** @jsx React.DOM */
 var React = require('react');
-var AppActions = require('../actions/app-actions.js');
+var Catalog = require('../components/app-catalog.js');
+var Cart = require('../components/app-cart.js');
 
-// create simple component called APP
 var APP = 
   React.createClass({
-  	handleClick:function(){
-  		AppActions.addItem('this is the item your looking for');
-  	},
     render: function(){
-      return <h1 onClick={this.handleClick}>MY REACT FLUX APP</h1>
+      return (
+          <div>
+          <h1> Lets Shop</h1>
+          <Catalog />
+          <h1>Cart</h1>
+          <Cart />
+          </div>
+        )
     }
   });
-
-// Export App
 module.exports = APP;
