@@ -4,10 +4,12 @@
   "description": "A Sandbox App to play with React & the Flux Architecture",
   "main": "gulpfile.js",
   "dependencies": {
+    "flux": "^2.0.3",
     "gulp": "^3.8.11",
     "gulp-browserify": "^0.5.1",
-    "react": "^0.13.3",
     "gulp-concat": "^2.5.2",
+    "object-assign": "^2.0.0",
+    "react": "^0.13.3",
     "reactify": "^1.1.1"
   },
   "devDependencies": {},
