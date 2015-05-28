@@ -1,0 +1,31 @@
+{
+  "name": "react_flux_fun",
+  "version": "1.0.0",
+  "description": "A Sandbox App to play with React & the Flux Architecture",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-browserify": "^0.5.1",
+    "react": "^0.13.3",
+    "gulp-concat": "^2.5.2",
+    "reactify": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwalker86/React_Flux_Fun.git"
+  },
+  "keywords": [
+    "react",
+    "flux"
+  ],
+  "author": "Cyrus R Walker II",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwalker86/React_Flux_Fun/issues"
+  },
+  "homepage": "https://github.com/cwalker86/React_Flux_Fun#readme"
+}
