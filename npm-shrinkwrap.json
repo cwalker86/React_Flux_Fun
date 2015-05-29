@@ -2,6 +2,11 @@
   "name": "react_flux_fun",
   "version": "1.0.0",
   "dependencies": {
+    "flux": {
+      "version": "2.0.3",
+      "from": "flux@*",
+      "resolved": "https://registry.npmjs.org/flux/-/flux-2.0.3.tgz"
+    },
     "gulp": {
       "version": "3.8.11",
       "from": "gulp@*",
@@ -2269,6 +2274,11 @@
           }
         }
       }
+    },
+    "object-assign": {
+      "version": "2.0.0",
+      "from": "object-assign@*",
+      "resolved": "https://registry.npmjs.org/object-assign/-/object-assign-2.0.0.tgz"
     },
     "react": {
       "version": "0.13.3",
