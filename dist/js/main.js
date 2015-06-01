@@ -20718,13 +20718,19 @@ var EventEmitter = require('events').EventEmitter;
 // This is the event that stores will be listening for
 var CHANGE_EVENT = "change";
 
-// List of items to play with
-// doesn't really belong in the store
-var _catalog = [
-	{id:1, title: 'Macbook Pro', cost: 1000},
-	{id:2, title: 'Macbook Air', cost: 900},
-	{id:3, title: 'Macbook', cost: 500}
-];
+
+var _catalog = [];
+
+for(var i=1; i<9; i++){
+	_catalog.push({
+		'id': 'Macbook' +i,
+		'title': 'Macbook #' + i,
+		'summary': 'Now with Force Touch trackpad, longer batter life, and faster flash storage.',
+		'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptatem.',
+		'img': '/assets/product.png',
+		'cost': i * 100
+	});
+}
 
 // Cart
 var _cartItems = [];
